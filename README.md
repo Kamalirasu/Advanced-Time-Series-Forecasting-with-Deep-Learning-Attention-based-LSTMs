@@ -1,9 +1,7 @@
 # Advanced Time Series Forecasting with Deep Learning  
 ## Attention-based LSTM for Multivariate Forecasting
 
----
-
-## 📌 Project Overview
+## Project Overview
 
 This project implements an **advanced deep learning framework for multivariate time series forecasting**, with a specific focus on integrating an **attention mechanism into a Long Short-Term Memory (LSTM) network**.  
 
@@ -13,9 +11,7 @@ The objective is to **outperform traditional forecasting benchmarks** such as:
 
 The model is evaluated on a **complex, real-world, publicly available dataset** involving **hourly energy consumption**, demonstrating robust preprocessing, model design, and rigorous experimental evaluation.
 
----
-
-## 🎯 Key Objectives
+## Key Objectives
 
 - Handle **complex multivariate time-series data**
 - Implement **custom attention-based LSTM architecture**
@@ -24,9 +20,7 @@ The model is evaluated on a **complex, real-world, publicly available dataset** 
 - Evaluate models using **industry-standard metrics**
 - Interpret **attention weights** for model explainability
 
----
-
-## 📊 Dataset
+## Dataset
 
 - **Source:** Public household energy consumption dataset  
 - **Frequency:** Hourly  
@@ -41,9 +35,7 @@ The model is evaluated on a **complex, real-world, publicly available dataset** 
   - Day of week
   - Month
 
----
-
-## 🧠 Model Architectures
+## Model Architectures
 
 ### 1. Attention-based LSTM (Primary Model)
 - LSTM with `return_sequences=True`
@@ -60,18 +52,14 @@ The model is evaluated on a **complex, real-world, publicly available dataset** 
 - Seasonal ARIMA with daily seasonality
 - Classical statistical time series forecasting approach
 
----
-
-## 🧩 Attention Mechanism
+## Attention Mechanism
 
 The attention layer learns to assign **dynamic importance weights** to different time steps within each input sequence. This enables the model to:
 - Focus on the most relevant historical information
 - Improve long-horizon forecasting accuracy
 - Provide interpretability via attention weight visualization
 
----
-
-## 🏋️ Training Strategy
+## Training Strategy
 
 - Train/Test split: **80% / 20%**
 - Sliding window sequence length: **24 hours**
@@ -79,9 +67,7 @@ The attention layer learns to assign **dynamic importance weights** to different
 - Loss Function: **Mean Squared Error (MSE)**
 - Early stopping with validation monitoring
 
----
-
-## 📏 Evaluation Metrics
+## Evaluation Metrics
 
 All models are evaluated using:
 
@@ -91,9 +77,7 @@ All models are evaluated using:
 
 Performance comparison demonstrates the effectiveness of the attention mechanism over baseline approaches.
 
----
-
-## 📈 Results & Visualization
+## Results & Visualization
 
 - Forecast comparison plots between:
   - Actual values
